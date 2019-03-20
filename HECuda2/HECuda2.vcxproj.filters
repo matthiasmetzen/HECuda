@@ -21,16 +21,30 @@
     <ClInclude Include="targetver.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
+    <ClInclude Include="Functions.cuh">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="HECuda2.cuh">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="debugCallback.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
-    <ClCompile Include="HECuda2.cpp">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
     <ClCompile Include="dllmain.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="Functions.cu">
+      <Filter>Quelldateien</Filter>
+    </CudaCompile>
+    <CudaCompile Include="HECuda2.cu">
+      <Filter>Quelldateien</Filter>
+    </CudaCompile>
   </ItemGroup>
 </Project>
